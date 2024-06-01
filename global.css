@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+/* fonts */
+/* 
+font-family: "Open Sans", sans-serif;
+font-family: "Raleway", sans-serif;
+
+*/
+
+input,
+button,
+img {
+	display: block;
+	max-width: 100%;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.wrapper {
+	padding-top: 1rem;
+	min-width: 375px;
+	margin: 0 auto;
+}
+body {
+	font-size: 1rem;
+	scroll-behavior: smooth;
+	width: 100%;
+	min-height: 100vh;
+	font-family: "Open sans", serif;
+}
+.pad2 {
+	padding-inline: 2rem;
+}
+.flex {
+	display: flex;
+}
+
+@media (min-width: 475px) {
+	.wrapper {
+		max-width: 475px;
+	}
+	header {
+		max-width: 475px;
+
+	}
+}
+@media (min-width: 640px) {
+	.wrapper {
+		max-width: 640px;
+	}
+	header {
+		max-width: 640px;
+	}
+}
+@media (min-width: 768px) {
+	.wrapper {
+		max-width: 768px;
+	}
+	header {
+		max-width: 768px;
+	}
+}
+@media (min-width: 1024px) {
+	.wrapper {
+		max-width: 1024px;
+	}
+	header {
+		max-width: 1024px;
+	}
+}
+@media (min-width: 1280px) {
+	.wrapper {
+		max-width: 1280px;
+	}
+	header {
+		max-width: 1280px;
+	}
+}
+@media (min-width: 1440px) {
+	.wrapper {
+		max-width: 1440px;
+	}
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | Fylo landing page with two column layout</title>
+		<link rel="stylesheet" href="./global.css" />
+		<link rel="stylesheet" href="./styles.css" />
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="pad2">
+				<div class="logo__container">
+					<img src="./images/logo.svg" alt="logo" />
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Sign in</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<section class="main__top pad2">
+				<div class="top__left">
+					<h2>All your files in one secure location, accessible anywhere.</h2>
+					<p>
+						Fylo stores your most important files in one secure location. Access
+						them wherever you need, share and collaborate with friends, family,
+						and co-workers.
+					</p>
+
+					<form class="email__container">
+						<input
+							type="email"
+							name="email"
+							id="email__Input"
+							placeholder="Enter your email"
+						/>
+						<input class="get__started btn" type="submit" value="Get Started" />
+					</form>
+				</div>
+				<div class="top-right">
+					<img src="./images/illustration-1.svg" alt="illustration 1" />
+				</div>
+			</section>
+
+			<div class="curve__container">
+				<picture>
+					<source
+						media="(min-width:375px)"
+						srcset="./images/bg-curve-desktop.svg"
+					/>
+					<img src="./images/bg-curve-mobile.svg" />
+				</picture>
+			</div>
+
+			<section class="main__bottom">
+				<div class="image__container pad2">
+					<img src="./images/illustration-2.svg" alt="" />
+				</div>
+
+				<div class="bottom__right__container">
+					<h3 class="pad2">Stay productive, wherever you are</h3>
+					<p class="pad2">
+						Never let location be an issue when accessing your files. Fylo has
+						you covered for all of your file storage needs.
+						<br />
+						<br />
+						Securely share files and folders with friends, family and colleagues
+						for live collaboration. No email attachments required!
+					</p>
+					<div class="testimonials pad2">
+						<div class="links">
+							<a href="#"
+								>See how Fylo works
+								<img class="arrow" src="./images/icon-arrow.svg" alt="arrow" />
+							</a>
+						</div>
+
+						<div class="reviews"">
+						<img src="./images/icon-quotes.svg" alt="icon-quotes" />
+
+						<p>
+							Fylo has improved our team productivity by an order of magnitude.
+							Since making the switch our team has become a well-oiled
+							collaboration machine.
+						</p>
+
+						<div class="profile__container flex">
+							<img src="./images/avatar-testimonial.jpg" alt="profile" />
+							<div class="profile__details">
+								<h3>Kyle Burton</h3>
+								<p>Founder & CEO, Huddle</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="access__form">
+				<div>
+					<h3>Get early access today</h3>
+
+					<p>
+						It only takes a minute to sign up and our free starter tier is
+						extremely generous. If you have any questions, our support team
+						would be happy to help you.
+					</p>
+				</div>
+
+				<form class="get__started pad2">
+					<input type="email" required placeholder="email@example.com" />
+					<input type="submit" value="Get Started For Free" />
+				</form>
+			</section>
+
+			<footer>
+				<div class="logo">
+					<img src="./images/logo.svg" alt="filo logo" />
+				</div>
+
+				<div class="contacts">
+					<div class="contact__link">
+						<div class="phone flex">
+							<img src="./images/icon-phone.svg" alt="phone" />
+							<p>Phone: + 1-543-123-4567</p>
+						</div>
+						<div class="email flex">
+							<img src="./images/icon-email.svg" alt="email" />
+							<p>Phone: + 1-543-123-4567</p>
+						</div>
+					</div>
+
+					<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+
+					<ul>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Privacy</a></li>
+					</ul>
+          
+					<ul class="social__links">
+						<li>
+							<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+	</body>
+</html>
